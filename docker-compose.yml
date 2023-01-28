@@ -14,5 +14,5 @@ services:
     restart: always
 
 networks:
-  vps_proxy:
-    name: vps_proxy
+  routing_proxy:
+    name: routing_proxy
