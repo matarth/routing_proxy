@@ -5,7 +5,7 @@ services:
     container_name: proxy
     image: nginx:latest
     networks:
-        routing_proxy:
+      - routing_proxy
     ports:
       - "80:50000"
     volumes:
